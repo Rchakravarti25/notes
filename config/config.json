@@ -1,0 +1,27 @@
+{
+	"development": {
+		"uri": "mongodb://localhost:27017/notes",
+		"options": {
+			"useCreateIndex": true,
+			"useNewUrlParser": true,
+			"useUnifiedTopology": true
+		}
+	},
+	"test": {
+		"uri": "mongodb://localhost:27017/notes",
+		"options": {
+			"useCreateIndex": true,
+			"useNewUrlParser": true,
+			"useUnifiedTopology": true
+		}
+	},
+	"production": {
+		"uri": "mongodb://localhost:27017/notes",
+		"options": {
+			"replicaSet": "rs0",
+			"useCreateIndex": true,
+			"useNewUrlParser": true,
+			"useUnifiedTopology": true
+		}
+	}
+}
